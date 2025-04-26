@@ -1,7 +1,9 @@
 <script setup>
-import IButton from './components/IButton/IButton.vue'
+// import HomePage from './views/HomePage.vue'
+import FavoritePlaces from './components/FavoritePlaces/FavoritePlaces.vue'
 </script>
 
 <template>
-  <IButton> </IButton>
+  <!-- <HomePage /> -->
+  <div class="h-screen w-[379px]"><FavoritePlaces></FavoritePlaces></div>
 </template>
